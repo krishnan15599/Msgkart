@@ -1,0 +1,285 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 1);
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .logo-image {
+    max-width: 150px;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .plans-button {
+    background-color: #ff7043;
+    color: #fff;
+    padding: 14px 34px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  p {
+    color: #666;
+    font-family: Matter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62.4px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+ 
+.pricing-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 262px;
+    height: 522px; 
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    gap: 10px; 
+  }
+  .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+}
+  
+
+  .card-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 8px; 
+  }
+  
+  .intro-text {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px; 
+  }
+  
+  
+  .price {
+    font-size: 48px;
+    color: #333;
+    margin: -5px 0 5px; 
+  }
+  
+  .price span {
+    font-size: 14px;
+    color: #888;
+    display: block;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 15px 0; 
+  }
+  
+  .card-description {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .card ul li {
+    display: flex;
+    align-items: center;
+    margin: 6px 0; 
+  }
+  
+  .card ul li::before {
+    content: "✔";
+    color: green;
+    margin-right: 8px;
+  }
+  
+  .get-started {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+    margin-top: auto; 
+  }
+  
+
+  .popular {
+    background-color: #ff7043;
+    color: #fff;
+    width: 262px;
+    height: 584px;
+    padding: 20px;
+    margin-top: -31px;
+  }
+  @media (max-width: 768px){
+    .popular{
+        margin-top: 15px;
+    }
+  }
+  
+  .popular h3,
+  .popular .price,
+  .popular .card-description,
+  .popular ul,
+  .popular .get-started {
+    color: #fff;
+  }
+  
+  .popular .get-started {
+    background-color: #fff;
+    color: #ff7043;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #004aad;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 18px;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  .pricing-features {
+    margin-top: 20px;
+     background:  rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 1480px;
+  }
+  
+  .features-title {
+    font-size: 48px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    left: 70px;
+  }
+  
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    position: relative;
+    left: 70px;
+  }
+  
+  .feature {
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 30px;
+  }
+  
+  .feature-checkmark {
+    color: #28a745;
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  /* Media queries for responsive design */
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+    .features-title {
+      font-size: 36px;
+      left: 30px;
+    }
+    
+    .features-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      left: 30px;
+    }
+    
+    .feature {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 768px) {
+    .features-title {
+      font-size: 28px;
+      text-align: center;
+      left: 0;
+    }
+    
+    .features-list {
+      grid-template-columns: 1fr;
+      left: 0;
+    }
+    
+    .feature {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  }

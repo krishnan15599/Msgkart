@@ -1,0 +1,238 @@
+.container {
+    display: flex;
+    justify-content: center;           
+    align-items: center;              
+    background-color: rgb(251, 232, 225);    
+
+  }
+
+  section {            
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;                     
+  }
+  
+  .responsive-image {
+    width: 785px;                  
+    height: 1014px;                    
+    border-radius: 8px;    
+    object-fit: cover;                
+  }
+  
+  .right-section {
+    width: 595px;                    
+    height: 983px;                    
+    border-radius: 8px;               
+   
+    padding: 20px;
+    background-color: white;           
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 87px;
+  }
+  
+  .left-image {
+    align-self: flex-start;
+    width: 183px;
+    height: 187px;
+    position: relative;
+    top: -67px;
+    left: -20px;
+    gap: 0px;
+    opacity: 0px; 
+  }
+  
+  .right-side-content {
+    display: flex;
+    justify-content: flex-end;  
+    width: 100%;
+    position: relative;
+    right: 4px;
+    top: 13px;
+  }
+  
+  .right-image {
+    height: 20px;            
+    margin-right: 10px;      
+  }
+  
+  h4 {
+    margin: 0;          
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.0011em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+  }
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .center-content-para{
+    margin-bottom: 35px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.0011em;
+text-align: center;
+
+  }
+  h1{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: -0.0011em;
+    text-align: center;
+
+  }
+  
+ 
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+  }
+  
+  .input-wrapper {
+    position: relative;
+    margin: 15px;
+  }
+  .input-icon {
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; 
+    height: 24px; 
+    pointer-events: none; 
+  }
+  
+  .input-field {
+    width: 389px;
+    height: 50px;
+    background: rgba(244, 244, 244, 1);
+    border: none;
+    border-radius: 8px;
+    padding-left: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .input-field-gst{
+    width: 389px;
+    height: 50px;
+    background: rgba(244, 244, 244, 1);
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .registration-form input::placeholder {
+    font-size: 16px;
+  }
+  
+  .registration-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+   .form-group {
+    display: flex;
+    width: 389px;
+  }
+  .form-group-input{
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+    margin-left: 17px;
+  }
+  
+  button {
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    width: 389px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .registration-form-para {
+    font-family: Inter;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+
+  }
+  
+  .registration-form-link {
+    color: #ff4500;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .break-line {
+    display: block;
+  }
+  .registration-form-paragraph{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.25px;
+    text-align: center;
+    color: rgba(18, 78, 141, 1);
+    ;
+
+  }
+  .social{
+    margin-top: 25px;
+  }
+  .social-para{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.0011em;
+    text-align: center;
+
+  }
+  .divider {
+    height: 2px; 
+    background-color: #ccc; 
+    margin: 20px 0; 
+}
+
+  .social-icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
